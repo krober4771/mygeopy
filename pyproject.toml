@@ -2,10 +2,9 @@
 name = "mygeopy"
 version = "0.0.1"
 
-
 [build-system]
-requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
 
 [project.optional-dependancies]
 tests = ["pytest"]

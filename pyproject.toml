@@ -6,3 +6,9 @@ version = "0.0.1"
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[project.optional-dependancies]
+tests = ["pytest"]
+
+[tool.pytest.ini_options]
+addopts = "--doctest_modules"

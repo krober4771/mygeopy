@@ -1,6 +1,6 @@
 [project]
 name = "mygeopy"
-
+project.version = "0.0.1"
 description = "Testing tests"
 
 dependencies = [

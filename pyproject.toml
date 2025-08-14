@@ -1,11 +1,7 @@
 [project]
 name = "mygeopy"
-project.version = "0.0.1"
-description = "Testing tests"
+version = "0.0.1"
 
-dependencies = [
-    "numpy",
-]
 
 [build-system]
 requires = ["hatchling", "hatch-vcs"]

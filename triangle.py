@@ -1,3 +1,6 @@
+import numpy as np
+import numbers
+
 def hypot(a :float,b :float):
     """
     Compute the hypotenuse of a right triangle.
